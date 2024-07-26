@@ -1,0 +1,70 @@
+.square{
+    background-color: red;
+    width: 70px;
+    height: 70px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+img{
+    margin: 5px 16px;
+    width: 36%;
+    background-color:darkgreen;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    height: 550px;
+    width: 550px;
+}
+.file-a .square:nth-of-type(odd){
+    background-color: darkgreen;
+}
+.file-a .square:nth-of-type(even){
+    background-color: aqua ;
+}
+.file-b .square:nth-of-type(odd){
+    background-color: aqua ;
+}
+.file-b .square:nth-of-type(even){
+    background-color: darkgreen ;
+}
+.file-c .square:nth-of-type(odd){
+    background-color: darkgreen;
+}
+.file-c .square:nth-of-type(even){
+    background-color: aqua ;
+}
+.file-d .square:nth-of-type(odd){
+    background-color: aqua ;
+}
+.file-d .square:nth-of-type(even){
+    background-color: darkgreen ;
+}
+.file-e .square:nth-of-type(odd){
+    background-color: darkgreen;
+}
+.file-e .square:nth-of-type(even){
+    background-color: aqua ;
+}
+.file-f .square:nth-of-type(odd){
+    background-color: aqua ;
+}
+.file-f .square:nth-of-type(even){
+    background-color: darkgreen ;
+}
+.file-g .square:nth-of-type(odd){
+    background-color: darkgreen;
+}
+.file-g .square:nth-of-type(even){
+    background-color: aqua ;
+}
+.file-h .square:nth-of-type(odd){
+    background-color: aqua ;
+}
+.file-h .square:nth-of-type(even){
+    background-color: darkgreen ;
+}
